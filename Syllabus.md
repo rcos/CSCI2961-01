@@ -21,7 +21,7 @@ in preparation for jobs in industry or for more advanced courses.
 - Understanding of Open Source Software Tools and community
 - Understanding of Open Source Licensing.
 - Understanding of Tetsing, Version Control.
-- Understanding of Open SOurce Software Stack.
+- Understanding of Open Source Software Stack.
 
 ## Syllabus:
 
