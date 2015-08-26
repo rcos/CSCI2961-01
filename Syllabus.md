@@ -20,40 +20,37 @@ in preparation for jobs in industry or for more advanced courses.
 
 - Understanding of Open Source Software Tools and community
 - Understanding of Open Source Licensing.
-- Understanding of Tetsing, Version Control.
+- Understanding of Testing, Version Control.
 - Understanding of Open Source Software Stack.
 
 ## Syllabus:
 
-1. History of Open Source
+1. Foundations
+  -  History of Open Source
 
-2. Licensing
+   - Licensing
 
-3. Version Control
+2. Software Management Tools
+  
+  - Version Control
+  - Documentation Tools
+  - System Build
+  - Specification and Testing
+  - Collaborative Development
 
-4. Documentation Tools
+3. Software Development  Tools
+  - Scientific Computing
+  - Statistical Computing
+  - Databases
 
-5. System Build
-
-6. Specification and Testing
-
-7. Colloborative Development
-
-8. Scientific Computing
-
-9. Statistical Computing
-
-10. Web Applications
+4. Software Applications
+  - Web Development
+  - Cloud Computing Platform
+  - Mobile Applications
  
-11. Cloud Computing Platform
- 
-12. Databases
- 
-13. Mobile Applications
- 
-14. Open Hardware
+5. Open Hardware
 
-15.  Projects
+6.  Projects
 
 ## Grading Criteria:
 - 2 Quizzes (15 points each) - 30%
