@@ -15,7 +15,7 @@ in team project and diversity issues. Prepare a new RCOS project for the followi
 ##Learning Outcome:
 
 
-The goal of this course is to provide a strong foundation in open source software development.
+The goal of this course is to provide a strong foundation in open source software development
 in preparation for jobs in industry or for more advanced courses.
 
 - Understanding of Open Source Software Tools and community
@@ -65,7 +65,7 @@ in preparation for jobs in industry or for more advanced courses.
 
 ##Integrity
 
-Collaboration is not allowed. Labs and Quizzes should be solved and written by individuals alone. 
+Collaboration is allowed (but do not copy blindly - please understand) . Labs and Quizzes should be solved and written by individuals alone. 
 Project is a group project (group of 3 or 4)
 If anyone is caught cheating then severe measures will be taken such as lowering the final grade, 
 and the event will be reported to the appropriate authorities in the campus.
