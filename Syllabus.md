@@ -25,19 +25,33 @@ in preparation for jobs in industry or for more advanced courses.
 ## Syllabus:
 
 1 History of Open Source
+
 2 Licensing
+
 3 Version Control
+
 4 Documentation Tools
+
 5 System Build
+
 6 Specification and Testing
+
 7 Colloborative Development
+
 8 Scientific Computing
+
 9 Statistical Computing
+
 10. Web Applications
+ 
 11. Cloud Computing Platform
+ 
 12. Databases
+ 
 13. Mobile Applications
+ 
 14. Open Hardware
+
 15. Projects
 
 ## Grading Criteria:
