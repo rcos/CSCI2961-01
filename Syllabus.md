@@ -6,7 +6,8 @@
 ##  Lectures are on Tuesdays and Labs are on Fridays
 
 ## Goal of this Class:
-Familiarize with open source software development, be familiar and eager to learn new technology stacks, 
+Familiarize with open source software development, be familiar and eager to learn new technology stacks,
+Reading and Understanding Good Code.
 Patch an existing open source project. Work on a team collaborative project, Become aware of/conversant 
 in team project and diversity issues. Prepare a new RCOS project for the following semester.
 
