@@ -24,23 +24,23 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Syllabus:
 
-1 History of Open Source
+1. History of Open Source
 
-2 Licensing
+2. Licensing
 
-3 Version Control
+3. Version Control
 
-4 Documentation Tools
+4. Documentation Tools
 
-5 System Build
+5. System Build
 
-6 Specification and Testing
+6. Specification and Testing
 
-7 Colloborative Development
+7. Colloborative Development
 
-8 Scientific Computing
+8. Scientific Computing
 
-9 Statistical Computing
+9. Statistical Computing
 
 10. Web Applications
  
@@ -52,7 +52,7 @@ in preparation for jobs in industry or for more advanced courses.
  
 14. Open Hardware
 
-15. Projects
+15.  Projects
 
 ## Grading Criteria:
 - 2 Quizzes (15 points each) - 30%
