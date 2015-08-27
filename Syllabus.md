@@ -1,7 +1,7 @@
 # CSCI 29601-1 Introduction to Open SOurce
 ## Instructor: Mukkai Krishnamoorthy
 ## Class Place and Time:  AE 215 T, F  Noon - 1:50 pm
-### Office Hours: T, Friday 2 - 3:30 pm
+### Office Hours: T, F 2 - 3:30 pm
 
 
 ### Underaduate Teaching Assistants:
