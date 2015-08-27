@@ -66,6 +66,13 @@ in preparation for jobs in industry or for more advanced courses.
 - 10 labs (3 points each) - 30%
 - Project - 40%
 
+
+## Quiz Dates
+
+- Quiz 1 16th October
+- Quiz 2  20Th November
+
+
 93 and above A; 90 and above A-; 85 and above B+ ; 80 and above B; 75 and above C+ ; 70 and above C; 65 and above D+,
 60 and above D.
 
