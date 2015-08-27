@@ -8,9 +8,9 @@
 
 - Seve Ibarluzea '17
 
-- Thomas Manzini '17
+- Thomas Manzini '16
 
-- Kiana McNellis '16
+- Kiana McNellis '17
 
 ##  Lectures are on Tuesdays and Labs are on Fridays
 
