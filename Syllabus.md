@@ -3,6 +3,15 @@
 ## Class Place and Time:  AE 215 T, F  Noon - 1:50 pm
 ### Office Hours: T, Friday 2 - 3:30 pm
 
+
+### Underaduate Teaching Assistants:
+
+- Seve Ibarluzea '17
+
+- Thomas Manzini '17
+
+- Kiana McNellis '16
+
 ##  Lectures are on Tuesdays and Labs are on Fridays
 
 ## Goal of this Class:
