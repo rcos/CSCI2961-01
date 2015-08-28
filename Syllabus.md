@@ -73,8 +73,7 @@ in preparation for jobs in industry or for more advanced courses.
 - Quiz 2  20Th November
 
 
-93 and above A; 90 and above A-; 85 and above B+ ; 80 and above B; 75 and above C+ ; 70 and above C; 65 and above D+,
-60 and above D.
+93 and above A; 90 and above A-; 85 and above B+ ; 80 and above B; 75 and above B- ; 70 and above C+; 65 and above C , 60 and above C-, 55 and above D+ , 50 and above D.
 
 ##Integrity
 
