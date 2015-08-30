@@ -10,7 +10,7 @@
 1. go through this tutorial https://try.github.io/levels/1/challenges/1
 
 2. go through this tutorial to set up a github account http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1
-3. 
+
 
 21. Please read Eric Raymond's article http://www.catb.org/esr/faqs/smart-questions.html How to ask the question The Smart Way . Do you have more suggestions for How To Answer Questions in a Helpful Way (from your past experience) http://www.catb.org/esr/faqs/smart-questions.html#idp64834912  - List at least two.
 
