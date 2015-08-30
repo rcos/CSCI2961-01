@@ -1,7 +1,7 @@
 #Lecture:
 
 Why Open Source
-- Benfits of Open SOurce
+- Benfits of Open Source
 - Modern day software tools 
 - Community 
 - Project Contribution 
