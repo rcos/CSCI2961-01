@@ -3,6 +3,7 @@
 ## Git Hub, Linux Command Line Instructions, Reguar Expressions Visual Programming
 
 ## Maintain a marked down page or a blog of your weekly lab work. You can copy paste screen shots. You will get graded at the end of the lab. 
+###
 
 - If you already have github accounts you can skip the first two parts
 
@@ -12,6 +13,8 @@
 
 3. Boot the linux/unix through USB. Get familiar with the directory structure.
 Practice with ls, cd, mkdir, chmod commands - when in doubt search the web to find the answer.
+
+31. Practice with grep, egrep commands = Look at the manual to see how to use these commands
 
 4. Install tree and get the directory structure.
 
