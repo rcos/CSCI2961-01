@@ -10,10 +10,9 @@ Why Open Source
 
 #Lab:
  - Development Tools and Application Development and SHaring
-  - GIT Account Set up,
+  - github Account Set up,
   - Comand Line, tree,  
   - Blocky/SNAP/BYOB problem
   - Steganography (easy)
  
 - Selecting a problem of your interest, 
- 
