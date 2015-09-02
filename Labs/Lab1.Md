@@ -18,7 +18,7 @@
 Practice with ls, cd, mkdir, chmod commands - when in doubt search the web to find the answer.
 
 31. Practice with grep, egrep commands = Look at the manual to see how to use these commands. (Read the first chapter in Beautiful Code about the development and implementation (in C) of a very simple grep https://github.com/onestraw/ebook/blob/master/09_other/%E4%BB%A3%E7%A0%81%E4%B9%8B%E7%BE%8EBeautiful%20Code.pdf 
-32. )
+ )
 
 4. Install tree and get the directory structure.
 
