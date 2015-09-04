@@ -38,7 +38,7 @@ int matchhere (char *regexp, char *text)
   return 0;
 }
 
-/* matchstar: search fpr c*regexp at beginning of text */
+/* matchstar: search for c*regexp at beginning of text */
 
 int matchstar(int c, char *regexp, char *text)
 {
@@ -52,7 +52,10 @@ int matchstar(int c, char *regexp, char *text)
 int main(int argc, char **argv)
 {
   if (argc < 3)
+  {
     printf("****** Command to execute is  grep1  pattern   text ****** \n");
+    return 0;
+  }
   
   printf("  matched 0 for no;  1 for yes; %d \n", match(argv[1], argv[2]));
   return 1;
