@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*                                                          */
-/* code from First Chapter of Beautiful Code                */                                                       */
+/* code from First Chapter of Beautiful Code                */                                                       
 /* compile it with gcc regexp.c -Wall -o mygrep             */
 /*                                                          */
 /*                                                          */
