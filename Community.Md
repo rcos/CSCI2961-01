@@ -1,1 +1,1 @@
-Please join the rcos.slack.com (use your rcs id as login and register). The class chanel is csci2961
+## Please join the http://rcos.slack.com (use your rcs id as login and register). The class channel is csci2961
