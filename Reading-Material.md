@@ -7,3 +7,5 @@ Besides the reading materials mentioned in lecture slides and home works, here a
    Review here http://www.cs.cmu.edu/~agroce/passages/SoulReview.pdf  (Leisue time reading)
    
 - Peter Norvig, Teach Yourself Programming in Ten Years, http://norvig.com/21-days.html (small article - well worth the read)
+
+- Read the article about "Happy Birth Day Song" may go into a public domain (this was also mentioned in class by a student) http://www.nytimes.com/2015/08/05/business/media/an-old-songbook-could-put-happy-birthday-in-the-public-domain.html?_r=0
