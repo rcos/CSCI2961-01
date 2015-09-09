@@ -3,10 +3,11 @@
 ## Class Place and Time:  AE 215 T, F  Noon - 1:50 pm
 ### Office Hours: T, F 2 - 3:30 pm
 
-
-### Underaduate Teaching Assistants:
+### Undergraduate Teaching Assistants:
 
 - Seve Ibarluzea '17
+
+-  Joseph Lee '17
 
 - Thomas Manzini '16
 
@@ -15,14 +16,12 @@
 ##  Lectures are on Tuesdays and Labs are on Fridays
 
 ## Goal of this Class:
+
 Familiarize with open source software development, be familiar and eager to learn new technology stacks,
 Reading and Understanding Good Code.
-Patch an existing open source project. Work on a team collaborative project, Become aware of/conversant 
-in team project and diversity issues. Prepare a new RCOS project for the following semester.
+Patch an existing open source project. Work on a team collaborative project. Become aware of/conversant in team project and diversity issues. Prepare a new RCOS project for the following semester.
 
-
-##Learning Outcome:
-
+## Learning Outcome:
 
 The goal of this course is to provide a strong foundation in open source software development
 in preparation for jobs in industry or for more advanced courses.
@@ -36,11 +35,9 @@ in preparation for jobs in industry or for more advanced courses.
 
 1. Foundations
   -  History of Open Source
-
    - Licensing
 
 2. Software Management Tools
-  
   - Version Control
   - Documentation Tools
   - System Build
@@ -59,27 +56,27 @@ in preparation for jobs in industry or for more advanced courses.
  
 5. Open Hardware
 
-6.  Projects
+6. Projects
 
 ## Grading Criteria:
-- 2 Quizzes (15 points each) - 30%
-- 10 labs (3 points each) - 30%
-- Project - 40%
 
+- 2 Quizzes (15 points each) - 30%
+- 10 Labs (3 points each) - 30%
+- Project - 40%
 
 ## Quiz Dates
 
 - Quiz 1 16th October
-- Quiz 2  20Th November
+- Quiz 2 20th November
 
+93 and above A; 90 and above A-; 85 and above B+; 80 and above B; 75 and above B-; 70 and above C+; 65 and above C; 60 and above C-; 55 and above D+; 50 and above D.
 
-93 and above A; 90 and above A-; 85 and above B+ ; 80 and above B; 75 and above B- ; 70 and above C+; 65 and above C , 60 and above C-, 55 and above D+ , 50 and above D.
+## Community:
 
-##Integrity
+Please join csci2961 channel in http://rcos.slack.com 
 
-Collaboration is allowed (but do not copy blindly - please understand) . Labs and Quizzes should be solved and written by individuals alone. 
-Project is a group project (group of 3 or 4)
-If anyone is caught cheating then severe measures will be taken such as lowering the final grade, 
-and the event will be reported to the appropriate authorities in the campus.
+## Integrity
 
-
+Collaboration is allowed (but do not copy blindly - please understand). Labs and Quizzes should be solved and written by individuals alone. 
+Project is a group project (group of 3 or 4).
+If anyone is caught cheating, severe measures will be taken such as lowering the final grade, and the event will be reported to the appropriate authorities in the campus.
