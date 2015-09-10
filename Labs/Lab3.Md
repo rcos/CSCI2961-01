@@ -9,7 +9,7 @@ Commands used will include git add, git commit, git pull, git checkout, git bran
  
 
 1. Create a local repository exercise01 from command line by following instructions
-from slide 7 to 27 of Git-Introduction-Part-I/index.html#/ . create a README.Md file
+from slide 7 to 27 of https://github.com/rcos/Git-Introduction-Part-I and in the slide file the index.html  . create a README.Md file
 - This file should include your name , your photograph and your graduating
 year as a bullet-ed list. Md stands for Markdown language - Please
 read the cheat sheet http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf - and then push it to your git hub repository with the same name.
@@ -29,4 +29,6 @@ Test1 and Test2. In each of the branches create a different README.Md file Check
 clone that in your desktop. Add a file myprojectprogress.Md and write how you are making progress with your project selection and push it back to git hub. Follow the instructions in https://guides.github.com/activities/forking/index.html
 
 6. Clone the repository https://github.com/mskmoorthy/Story - One (Only one) member of each Table creates one (just one branch per table) branch - Table1, Table2,....
-Each member of the table create a file name called table_<number>.Md and write your project ideas. Each table merges on that branch. Then each table merges with the master branch.
+Each member of the table create a file name called table_<number>.Md and write your project ideas. Each table merges on that branch. Then each table merges with the master branch. https://github.com/rcos/Git-Introduction-Part-II and in the index.html slides will be helpful
+
+7. Create a Project git hub repository called courseproject. Create a file References.Md and add the websites/project pages you have seen here.
