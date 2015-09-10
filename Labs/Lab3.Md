@@ -1,6 +1,6 @@
 ## This lab (Lab # 3 on 4/18/2015) is about Git (local repository), Github and a few of the simple commands. 
 
-Commands used will include git add, git commit, git pull, git checkout, git branch, git push, git log, git status
+Commands used will include git add, git commit, git pull, git checkout, git branch, git push, git log, git status, git merge
 
 
 - Here is a cheat sheet for git commands https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
