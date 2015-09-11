@@ -14,7 +14,7 @@ write two to five sentences.
 Microsoft .NET Core uses MIT license ( https://github.com/dotnet/coreclr ), SailfishOS is not open source ( https://en.wikipedia.org/wiki/Sailfish_OS ).  Can you justify why
 such a license is chosen (Justify for ONE  is enough). Instead of these four, you can look at any other software project and justify the license chosen for that project.
 
-5.  Have them pick a license (as a group) using the LICENSE chooser by Github: http://choosealicense.com/
+5.  Think of an example project. Pick a license (as a group) using the LICENSE chooser by Github: http://choosealicense.com/
 
 6.  Read these licenses  GPL, LGPL and Apache/BSD and discuss which one will be better - for a developer, for a company and for the common good - Present at the end of the class (10 minutes per group)
 
