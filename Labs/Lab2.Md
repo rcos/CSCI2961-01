@@ -20,4 +20,4 @@ such a license is chosen (Justify for ONE  is enough). Instead of these four, yo
 
 7.  Justify their choice of the LICENSE (as a class).
 
-8.  Write five sentences about choosing a project to work in this course and who will be your partners and what technology stack you want to use 
+8.  Write five sentences about choosing a project to work in this course and who will be your partners and what technology stack you want to use  and what license will you choose.
