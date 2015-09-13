@@ -26,13 +26,17 @@ Show it to one of the lab helpers (TAs or Moorthy) about what you have done. Ple
 Test1 and Test2. In each of the branches create a different README.Md file Check out the Test1 branch from command line and make modifications to README. Md and push it back to Test1 branch in the github.
 
 5. Fork the https://github.com/octocat/Spoon-Knife repository by pressing the Fork command in the top right.
-clone that in your desktop. Add a file myprojectprogress.Md and write how you are making progress with your project selection and push it back to git hub. Follow the instructions in https://guides.github.com/activities/forking/index.html
+clone that in your desktop. Add a file myprojectprogress.Md and write how you are making progress with your project selection and push it back to your git hub respository. Follow the instructions in https://guides.github.com/activities/forking/index.html
 
 6. Do the four levels (first four levels) in http://pcottle.github.io/learnGitBranching/ Have a screen shot  in your lab report.
 
-7. Please understand the command git diff from the example given here https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html 
+65. Please fork the repostiry https://github.com/rcos/CSCI2961-01 and edit the file students.md to mark your attendence and make your pull request.
+
+7. Please understand the command git diff from the example given here https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html For the previous question is there a diff file and examine the content of the diff file.
+
 8. Understand git tagging from this example https://git-scm.com/book/en/v2/Git-Basics-Tagging and this http://rogerdudler.github.io/git-guide/
-9. Create a Project git hub repository called courseproject. Create a file References.Md and add the websites/project pages you have seen for the base
+
+9. Create a Project git hub repository called courseproject. Create a file References.Md and add the websites/project pages you have seen for. The result should be back in the github repository.
 
 10. Clone the repository https://github.com/mskmoorthy/Story - One (Only one) member of each Table creates one (just one branch per table) branch - Table1, Table2,....
 Each member of the table create a file name called table_<number>.Md and write your project ideas. Each table merges on that branch. Then each table merges with the master branch. https://github.com/rcos/Git-Introduction-Part-II and in the index.html slides will be helpful
