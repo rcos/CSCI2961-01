@@ -4,6 +4,12 @@ Commands used will include git add, git commit, git pull, git checkout, git bran
 
 
 - Here is a cheat sheet for git commands https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
+- https://git-scm.com/book/en/v2  very nice git book.
+
+
+
+
+
 
 0. Please generate ssh keys if you have not done so. Please follow the instructions (under creating an SSH key on linux and Mac OS X) in this website and add it to your git hub page. https://help.github.com/articles/generating-ssh-keys/
  
@@ -15,10 +21,7 @@ year as a bullet-ed list. Md stands for Markdown language - Please
 read the cheat sheet http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf - and then push it to your git hub repository with the same name.
 You will provide a link to this repository in your Lab3 answer git-hub page.
 
-2. In the local repository, create two branches, happybranch and happierbranch.
- go to happybranch, change the README.Md file to include a statement about what project you are planning to work on. Then go to happierbranch, change the
-README.Md file to include which websites you looked at for your project.
-Show it to one of the lab helpers (TAs or Moorthy) about what you have done. Please see slides 30 through 41. Merge them. 
+15. Once you create a repository, after git init you can add files to the repostiry by adding git add command. In the master branch add a file first.py which prints helloworld. add and commit the file (git add <filename>, git commit -m "my commit" ). git pu You can create a branch and modify/edit some of the files in the git hub repository. Then create a branch called mars (git branch mars) CHeck out this branch (gt checkout mars). modify the first.py to print hello mars. Then add and commit (git add, git commit). Then finally push i(by doing git push -u origin mars). Now go the master branch (git checkout master). create a branch called jupiter (bit branch jupiter ), checkout the jupiter branch (git checkout jupiter), modify the first.py file to print hello jupier. Then add and commit (git add first.py, git commit -m "my commit") and finally push (git push -u origin jupiter). Now go to your git hub repostiry and you can check all the branches.  Please see slides 30 through 41. 
 
 3.   Download gitk and visualize the branching diagram. using gitk and gitk -all  compare it with this command
 git log --graph --oneline --decorate
