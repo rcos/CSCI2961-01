@@ -31,7 +31,7 @@ clone that in your desktop. Add a file myprojectprogress.Md and write how you ar
 
 6. Do the four levels (first four levels) in http://pcottle.github.io/learnGitBranching/ Have a screen shot  in your lab report.
 
-65. Please fork the repostiry https://github.com/mskmoorthy/pulreq/ and edit the file students.md to mark your attendence - (write 9/18/2015) and make your pull request.
+65. Please fork the repostiry https://github.com/mskmoorthy/pulreq/ and edit the file students.md to mark your attendence - (write 9/18/2015) and make your pull request. You create a github repository and create  file called TAS and ask us to fork and make a pull request. Once you get the pull request and you accept and merge
 
 7. Please understand the command git diff from the example given here https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html For the previous question is there a diff file and examine the content of the diff file.
 
