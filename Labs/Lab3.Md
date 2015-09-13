@@ -20,7 +20,8 @@ You will provide a link to this repository in your Lab3 answer git-hub page.
 README.Md file to include which websites you looked at for your project.
 Show it to one of the lab helpers (TAs or Moorthy) about what you have done. Please see slides 30 through 41. Merge them. 
 
-3.   Download gitk and visualize the branching diagram. using gitk 
+3.   Download gitk and visualize the branching diagram. using gitk and gitk -all  compare it with this command
+git log --graph --oneline --decorate
 
 4.  Create a repository Exercise02 in github (in the web itself). Create Two branches of the master branch,
 Test1 and Test2. In each of the branches create a different README.Md file Check out the Test1 branch from command line and make modifications to README. Md and push it back to Test1 branch in the github.
