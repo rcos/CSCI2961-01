@@ -69,7 +69,7 @@ git push origin master
 ## Part 3
 
 1. Fork the repository https://github.com/mskmoorthy/pulreq/
-  * Edit the file students.md to mark your attendence - (write 9/18/2015 next to your name) and make a pull request.
+  * Make a file named <firstName lastName>, add today's date on the first line (9/18/2015), and make a pull request.
   * Ask a TA to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/pulreq.git` and `git pull upstream`
 
