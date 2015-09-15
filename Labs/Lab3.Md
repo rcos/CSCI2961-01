@@ -69,6 +69,7 @@ git push origin master
 1. Fork the repository https://github.com/mskmoorthy/pulreq/
   * Edit the file students.md to mark your attendence - (write 9/18/2015 next to your name) and make a pull request.
   * Ask a TA to merge your pull request.
+  * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/pulreq.git` and `git pull upstream`
 
 4. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
   * Examine the content of the diff file from the previous question (your pull request)
@@ -93,4 +94,6 @@ git push origin master
   * Push to your branch and fix any merge conflicts.
   * Then each table merges with the master branch and submits a pull request to the upstream repository.
   * Resolve any merge conflicts that occur along the way.
+    * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Story.git` and `git pull upstream`
+
   * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) (open index.html in the same way as the Introduction Part I slides)
