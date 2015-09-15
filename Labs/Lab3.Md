@@ -1,6 +1,6 @@
 ## This lab (Lab # 3 on 4/18/2015) is about Git (local repository), Github and a few of the simple commands. 
 
-Commands used will include git add, git commit, git pull, git checkout, git branch, git push, git log, git status, git diff , git tag,  git rebase and git merge
+Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 
 
 - Here is a cheat sheet for git commands https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
@@ -9,38 +9,50 @@ Commands used will include git add, git commit, git pull, git checkout, git bran
 
 
 
-
+## Part 1
 
 0. Please generate ssh keys if you have not done so. Please follow the instructions (under creating an SSH key on linux and Mac OS X) in this website and add it to your git hub page. https://help.github.com/articles/generating-ssh-keys/
  
 
 1. Create a local repository exercise01 from command line by following instructions
-from slide 7 to 27 of https://github.com/rcos/Git-Introduction-Part-I and in the slide file the index.html  . create a README.Md file
+from slide 7 to 27 of https://github.com/rcos/Git-Introduction-Part-I and in the slide file the index.html  . create a README.Md file.
 - This file should include your name , your photograph and your graduating
 year as a bullet-ed list. Md stands for Markdown language - Please
-read the cheat sheet http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf - and then push it to your git hub repository with the same name.
-You will provide a link to this repository in your Lab3 answer git-hub page.
+read the cheat sheet http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf
 
-15. Once you create a repository (go to github and create a repository), after git init you can add files to the repostiry by adding git add command. In the master branch add a file first.py which prints helloworld. add and commit the file (git add <filename>, git commit -m "my commit" ). git pu You can create a branch and modify/edit some of the files in the git hub repository. Then create a branch called mars (git branch mars) CHeck out this branch (gt checkout mars). modify the first.py to print hello mars. Then add and commit (git add, git commit). Then finally push i(by doing git push -u origin mars). Now go the master branch (git checkout master). create a branch called jupiter (bit branch jupiter ), checkout the jupiter branch (git checkout jupiter), modify the first.py file to print hello jupier. Then add and commit (git add first.py, git commit -m "my commit") and finally push (git push -u origin jupiter). Now go to your git hub repostiry and you can check all the branches.  Please see slides 30 through 41. 
+*Provide a link to this repository in your Lab3 blog post.*
 
-3.   Download gitk and visualize the branching diagram. using gitk and gitk -all  compare it with this command
-git log --graph --oneline --decorate
+2. Create a repository on github and push the README.md file you created.
 
-4.  Create a repository Exercise02 in github (in the web itself). Create Two branches of the master branch,
-Test1 and Test2. In each of the branches create a different README.Md file Check out the Test1 branch from command line and make modifications to README. Md and push it back to Test1 branch in the github.
+(hint: you should be doing something like `git init`, `git add README.md`, `git commit`, `git remote add origin <repo url>`, and `git push origin master`)
 
-5. Fork the https://github.com/octocat/Spoon-Knife repository by pressing the Fork command in the top right.
-clone that in your desktop. Add a file myprojectprogress.Md and write how you are making progress with your project selection and push it back to your git hub respository. Follow the instructions in https://guides.github.com/activities/forking/index.html
+3. Create a file `first.py` that prints "Hello World!". Add the file, commit it, and push it to your github repository on the master branch with `git push origin master`.
 
-6. Do the four levels (first four levels) in http://pcottle.github.io/learnGitBranching/ Have a screen shot  in your lab report.
+4. Create a new branch called `mars` with `git branch mars`. Check out the mars branch by doing `git checkout mars`. Change `first.py` to print "Hello Mars!". Add, commit and push this file to the mars branch using `git push origin mars`.
 
-65. Please fork the repostiry https://github.com/mskmoorthy/pulreq/ and edit the file students.md to mark your attendence - (write 9/18/2015) and make your pull request. You create a github repository and create  file called TAS and ask us to fork and make a pull request. Once you get the pull request and you accept and merge
+5. Do the same thing with a branch called `jupiter`.
 
-7. Please understand the command git diff from the example given here https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html For the previous question is there a diff file and examine the content of the diff file.
+6. Install gitk with `sudo apt-get install gitk`. Visualize the branching diagram. using gitk and gitk -all  compare it with this command `git log --graph --oneline --decorate`.
 
-8. Understand git tagging from this example https://git-scm.com/book/en/v2/Git-Basics-Tagging and this http://rogerdudler.github.io/git-guide/
+## Part 2
 
-9. Create a Project git hub repository called courseproject. Create a file References.Md and add the websites/project pages you have seen for. The result should be back in the github repository.
+1. You can create a derivative of a repository by forking. Fork the https://github.com/octocat/Spoon-Knife repository by pressing the Fork button in the top right corner of Github.
 
-10. Clone the repository https://github.com/mskmoorthy/Story - One (Only one) member of each Table creates one (just one branch per table) branch - Table1, Table2,....
-Each member of the table create a file name called table_<number>.Md and write your project ideas. Each table merges on that branch. Then each table merges with the master branch. https://github.com/rcos/Git-Introduction-Part-II and in the index.html slides will be helpful
+2. Clone the fork you made using `git clone <fork url>`
+
+3. Add a file `myprojectprogress.md` and write how you are making progress with your project selection and push it back to your forked Github repository. ( if you need help, see the instructions in https://guides.github.com/activities/forking/index.html
+
+4. Do the four levels (first four levels) in http://pcottle.github.io/learnGitBranching/. Include a screenshot in your lab report.
+
+## Part 3
+
+1. Fork the repository https://github.com/mskmoorthy/pulreq/ and edit the file students.md to mark your attendence - (write 9/18/2015) and make a pull request. (Ask a TA to merge your pull request).
+
+4. Make sure you understand the command `git diff` from the example given here https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html For the previous question is there a diff file and examine the content of the diff file.
+
+5. Understand git tagging from this example https://git-scm.com/book/en/v2/Git-Basics-Tagging and this http://rogerdudler.github.io/git-guide/
+
+6. Create a Project Github repository called courseproject. Create a file `References.md` and add any projects or websites that have interested you so far.
+
+7. Clone the repository https://github.com/mskmoorthy/Story - One (Only one) member of each table creates one (just one branch per table) branch - Table1, Table2,....
+Each member of the table create a file name called table_<number>.Md and write your project ideas. Each table merges on that branch. Then each table merges with the master branch. Resolve any merge conflicts that occur along the way. https://github.com/rcos/Git-Introduction-Part-II and in the index.html slides will be helpful
