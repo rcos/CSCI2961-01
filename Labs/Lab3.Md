@@ -1,18 +1,18 @@
-## This lab (Lab # 3 on 4/18/2015) is about Git (local repository), Github and a few of the simple commands. 
+## This lab (Lab # 3 on 4/18/2015) is about Git (local repository), Github and a few of the simple commands.
 
 Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 
 
-- Here is a cheat sheet for git commands https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf
-- https://git-scm.com/book/en/v2  very nice git book.
-
+- A cheat sheet for [git commands](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+- A very nice [book about git](https://git-scm.com/book/en/v2)
+- A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 
 
 ## Part 1
 
 0. Please generate ssh keys if you have not done so. Please follow the instructions (under creating an SSH key on linux and Mac OS X) in this website and add it to your git hub page. https://help.github.com/articles/generating-ssh-keys/
- 
+
 
 1. Create a local repository exercise01 from command line by following instructions
 from slide 7 to 27 of https://github.com/rcos/Git-Introduction-Part-I and in the slide file the index.html  . create a README.Md file.
