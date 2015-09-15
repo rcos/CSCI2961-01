@@ -10,8 +10,9 @@ Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, 
 
 ## Part 1
 
-0. Generate ssh keys if you have not done so.
-  * [Follow these instructions for generating and adding ssh keys to Github](https://help.github.com/articles/generating-ssh-keys/)
+> Generate ssh keys if you have not done so.
+
+  > [Follow these instructions for generating and adding ssh keys to Github](https://help.github.com/articles/generating-ssh-keys/)
     (make sure you select the correct operating system at the top)
 
 1. Setup git
@@ -24,7 +25,7 @@ Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, 
       * your graduating year
 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
-  *(hint: you should be doing something like this):*
+  >*(hint: you should be doing something like this):*
 ```
 git init
 git add README.md
@@ -32,6 +33,7 @@ git commit
 git remote add origin <repo url>
 git push origin master
 ```
+
   ***Provide a link to this repository in your Lab3 blog post.***
 
 3. Create a file `first.py` that prints "Hello World!".
@@ -71,16 +73,16 @@ git push origin master
   * Ask a TA to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/pulreq.git` and `git pull upstream`
 
-4. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
+2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
   * Examine the content of the diff file from the previous question (your pull request)
 
-5. Understand git tagging from [this example](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [this one](http://rogerdudler.github.io/git-guide/)
+3. Understand git tagging from [this example](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [this one](http://rogerdudler.github.io/git-guide/)
 
-6. Create a Github repository called `courseproject`.
+4. Create a Github repository called `courseproject`.
   * Create a file `References.md`
   * Add any projects or websites that have interested you so far
 
-7. As a table: (one person per table)
+5. As a table: (one person per table)
   * Fork the repository https://github.com/mskmoorthy/Story
   * Create one branch for your table (Table1, Table2,....)
   * Add each member of the table to the repository:
@@ -88,7 +90,7 @@ git push origin master
     * Click 'Collaborators'
     * Add the username of each person
 
-8. Each member should clone the table's repository and checkout your table's branch
+6. Each member should clone the table's repository and checkout your table's branch
   * Locally, each each member should create a file called `table_<number>.Md`
     * Write your project ideas inside.
   * Push to your branch and fix any merge conflicts.
