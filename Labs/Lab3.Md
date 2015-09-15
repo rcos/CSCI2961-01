@@ -2,7 +2,7 @@
 
 Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 
-
+- Please try to use command line or a git shell (I prefer using a command line - your ubuntu boot loader should help)
 - A cheat sheet for [git commands](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
 - A very nice [book about git](https://git-scm.com/book/en/v2)
 - A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another one](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
@@ -23,6 +23,7 @@ Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, 
       * your name
       * your photograph
       * your graduating year
+      * your project subarea for this class (what type of project you are working)
 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
   >*(hint: you should be doing something like this):*
