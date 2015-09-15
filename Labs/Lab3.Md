@@ -20,11 +20,11 @@ from slide 7 to 27 of https://github.com/rcos/Git-Introduction-Part-I and in the
 year as a bullet-ed list. Md stands for Markdown language - Please
 read the cheat sheet http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf
 
-*Provide a link to this repository in your Lab3 blog post.*
+  **Provide a link to this repository in your Lab3 blog post.**
 
 3. Create a repository on github and push the README.md file you created.
 
-> hint: you should be doing something like `git init`, `git add README.md`, `git commit`, `git remote add origin <repo url>`, and `git push origin master`
+  > hint: you should be doing something like `git init`, `git add README.md`, `git commit`, `git remote add origin <repo url>`, and `git push origin master`
 
 4. Create a file `first.py` that prints "Hello World!". Add the file, commit it, and push it to your github repository on the master branch with `git push origin master`.
 
