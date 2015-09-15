@@ -85,10 +85,12 @@ git push origin master
 4. Create a Github repository called `courseproject`.
   * Create a file `References.md`
   * Add any projects or websites that have interested you so far
+  * Please send a link to the repository in your Lab 3 report
 
 5. As a table: (one person per table)
   * Fork the repository https://github.com/mskmoorthy/Story
   * Create one branch for your table (Table1, Table2,....)
+  * you can push the branch the branch by doing  `git checkout -b feature_branch_name` , edit files, `git add` and `git commit` and  `git push -u origin feature_branch_name`
   * Add each member of the table to the repository:
     * Click 'Settings' on the repository page
     * Click 'Collaborators'
