@@ -13,7 +13,7 @@
 
     7) More details of Markdown language
 
-    8) More detailes of latex - collobarative development http://writelatex.com
+    8) More detailes of latex - collobarative development [http://writelatex.com](http://writelatex.com)
 
     9) Other Rich text environment
 
