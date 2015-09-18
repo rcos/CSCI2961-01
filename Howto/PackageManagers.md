@@ -30,6 +30,8 @@
   lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
   install apt-cyg /bin
   apt-cyg update
+  apt-cyg install wget
+
 ```
 
 ###To Install Packages: 
