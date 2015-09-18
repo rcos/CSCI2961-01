@@ -39,4 +39,6 @@
   apt-cyg install package-name
 ```
 
+##[Chocolatey](https://chocolatey.org)
+Follow https://github.com/chocolatey/choco/wiki/Installation
 
