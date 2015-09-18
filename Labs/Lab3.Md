@@ -52,7 +52,7 @@ git push origin master
 
 6. Install gitk with `sudo apt-get install gitk`.
   * Visualize the branching diagram.
-  * Use `gitk` and `gitk -all`
+  * Use `gitk` and `gitk --all`
   * Compare it with this command `git log --graph --oneline --decorate`.
 
 ## Part 2
