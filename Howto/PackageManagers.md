@@ -34,7 +34,7 @@
 
 ###To Install Packages: 
 ```
-  sudo apt-cyg install package-name
+  apt-cyg install package-name
 ```
 
 
