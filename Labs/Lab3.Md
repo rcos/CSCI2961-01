@@ -85,7 +85,7 @@ git push origin master
 4. Create a Github repository called `courseproject`.
   * Create a file `References.md`
   * Add any projects or websites that have interested you so far
-  * Please send a link to the repository in your Lab 3 report
+  *  **Please add a link to the repository in your Lab 3 report**
 
 5. As a table: (one person per table)
   * Fork the repository https://github.com/mskmoorthy/Story
@@ -95,6 +95,8 @@ git push origin master
     * Click 'Settings' on the repository page
     * Click 'Collaborators'
     * Add the username of each person
+    *   **Please add a link to the repository in your Lab 3 report**
+
 
 6. Each member should clone the table's repository and checkout your table's branch
   * Locally, each each member should create a file called `table_<number>.Md`
@@ -104,4 +106,4 @@ git push origin master
   * Resolve any merge conflicts that occur along the way.
     * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Story.git` and `git pull upstream`
 
-  * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) (open index.html in the same way as the Introduction Part I slides)
+  * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be usefull for this (open index.html in the same way as the Introduction Part I slides)
