@@ -54,6 +54,8 @@ git push origin master
   * Visualize the branching diagram.
   * Use `gitk` and `gitk --all`
   * Compare it with this command `git log --graph --oneline --decorate`.
+  *   **Include a screenshot in your lab report.**
+
 
 ## Part 2
 
