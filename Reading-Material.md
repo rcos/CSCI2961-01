@@ -15,7 +15,7 @@ Besides the reading materials mentioned in lecture slides and home works, here a
 - As a computer scientist, what would you do if you want to exercise your brain every morning? Read other people's code in the morning before you start writing code of your own. (from quora) http://www.quora.com/As-a-computer-scientist-what-would-you-do-if-you-want-to-exercise-your-brain-every-morning
 
 - Flow - How to make something interesting https://llk.media.mit.edu/courses/readings/Csikszentmihalyi-Flow-Ch4.pdf
-
+His TED talk video http://www.ted.com/talks/mihaly_csikszentmihalyi_on_flow?language=en 
 - the principles of open source http://opensource.com/open-source-way (thanks to Ms. Gina Likins for this referecnce)
 -  working in and building communities http://oss-watch.ac.uk/resources/buildingcommunities (thanks to Ms. Gina Likins for this referecnce)
 -  POSSE suggested link  http://foss2serve.org/index.php/Open_Vs_Proprietary_Mock_Debate  (thanks to Ms. Gina Likins for this referecnce)
