@@ -1,16 +1,26 @@
 Part 1 Documentation
+- Documentation along two axies --purpose, and tools used.
 
-- Importance of Documentation - why it is important - attracting developers, users, maintainers.
-- Writing User manual/API, blog posts, response to queries.
+Purpose:
+
+1. High-level design overview doc.
+2. Documentation at the top of a module.
+3. Documentation for a function/method/class.
+4. Embedded comments.
+
+Tools-used:
+
+1. Ensure docs are long-lived, and reside as close to the code as
+possible AKA -- no word-processor binary formats for documentation.
+
+Importance of Documentation - why it is important - attracting developers, users, maintainers.
+- Writing User manual/API, blog posts, response to queries. (High Level User Documentation)
 - Writig Style - Easy to read and understand
-- Different markup/markdown languages
+- Different markup/markdown languages (markdown is also a mark up - but a stripped down version to prevent cross site hacking) https://www.quora.com/What-is-the-difference-between-markup-and-markdown
 - Markup - like latex, HTML, XML
-- Markdown - like md
-- More details of Markdown language
+- Markdown - like md More details of Ms, rst (rich structured text)
 - More detailes of latex - collabarative development [http://writelatex.com](http://writelatex.com)
-- Other Rich text environment
-- RSS, ATOM Feeds
-- Lietrate Programming - Mixing  code and documentation - Python Notebook - Peter Norvigs TSP example andother note book example
+- Literate Programming - Mixing  code and documentation - Python Notebook - Peter Norvigs TSP example andother note book example (Documentation inside a program)
 - Lab Exercise on Patching
 Part 2 Community
 
