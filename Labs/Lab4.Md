@@ -16,7 +16,7 @@ This lab will result in creating a patch that you can send to an Open Source pro
 
 We will be using two projects, each known for their high quality and care for good documentation: **FreeBSD** and **OpenBSD**. You may choose which project's documentation to work with for this assignment.
 
-## [Free BSD](https://www.freebsd.org)
+## [FreeBSD](https://www.freebsd.org)
 FreeBSD's documentation can be found [here](https://www.freebsd.org/docs.html)
 
 The primary documents are the [Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/) and the [man pages](https://www.freebsd.org/cgi/man.cgi).
@@ -44,19 +44,19 @@ Remember, for this assignment you are not necessarily reading for correctness of
 
 You will need a subversion client. Most Linux and all BSDs have subversion in their package repositories. Windows users can use [TortoiseSVN](http://tortoisesvn.net/)
 
-* The first thing you will want to do is identify the documentation fix first, before you check out any code. Unlike git, subversion permits checking out only the directories you want to do work in, so there is no need to grab the entire FreeBSD source tree.
+* The first thing you will want to do is identify the documentation fix first, before you check out any code. You only need to checkout the module that your fix will be in, so there is no need to grab the entire FreeBSD source tree.
 
 * Once you have identified what you will fix, you can then grab it. You do so by looking through [FreeBSD's source tree](https://svnweb.freebsd.org/) and locating the directory the file you want to edit is in.
     Manual pages are located in the base/ directory, everything else is located in the doc/ directory.
 
-* Once you have found your file, you can check out its directory by issuing the following command:
+* Once you have found your file, you can check out the module it is in by issuing the following command:
 ```
     $ svn checkout https://svn0.us­west.FreeBSD.org/base/head local­directory/
 ```
 
-    This example will checkout the base source tree to a directory on your computer named `localdirectory`. You are responsible for editing the part of the command from “base” onward, to select which section of the tree you want to check out and where you want it to be on your hard drive.
+This example will checkout the base source tree to a directory on your computer named `localdirectory`. You are responsible for editing the part of the command from “base” onward, to select which module you want to check out and where you want it to be on your hard drive. Be aware that you may check out the doc module instead of the base module.
 
-    > You may need to double check that you are checking out the right part of the repository
+> You may need to double check that you are checking out the right part of the repository.
 
 * Next, use your favorite text editor to make the fix.
 
@@ -64,7 +64,7 @@ You will need a subversion client. Most Linux and all BSDs have subversion in th
 ```
     $ svn diff filename > myfix.diff
 ```
-    You can name myfix.diff anything you want, but it is best if it ends in .diff or .patch. You can now look at your diff to make sure it is correct.
+You can name myfix.diff anything you want, but it is best if it ends in .diff or .patch. You can now look at your diff to make sure it is correct.
 
 * If it is, you are ready to send your fix to FreeBSD.
     To report the bug fix, go to their [support website](https://www.freebsd.org/support.html).  (You will need to create an account on their bugzilla, it's free.)
@@ -79,17 +79,17 @@ You will need a cvs client. Most Linuxes and FreeBSD have cvs in their package r
 
 * Once you have found your file, you can check out its directory by issuing the following command:
 ```
-    $ cvs ­danoncvs@openbsd.nycbug.org:/cvs checkout ­P www/faq
+    $ cvs -danoncvs@openbsd.nycbug.org:/cvs checkout -P www/faq
 ```
-This example will checkout the OpenBSD FAQ web pages to a directory on your computer named www/faq. You are responsible for editing only the last part of the command (“www/faq”) to identify which section of the tree you want to check out.
+This example will checkout the OpenBSD FAQ web pages to a directory on your computer named www/faq. You are responsible for editing only the last part of the command (“www/faq”) to identify which directory of the tree you want to check out.
 
 * Next, use your favorite text editor to make the fix.
 
 * You then need to generate a diff that can be checked in by a developer. To do so on Unix, run:
 ```
-    $ cvs diff ­uNp filename > myfix.diff
+    $ cvs diff -uNp filename > myfix.diff
 ```
-    You can name myfix.diff anything you want, but it is best if it ends in .diff or .patch. You can now look at your diff to make sure it is correct.
+You can name myfix.diff anything you want, but it is best if it ends in .diff or .patch. You can now look at your diff to make sure it is correct.
 
 * If it is, you are ready to send your fix to OpenBSD. OpenBSD accepts documentation patches to their <tech@openbsd.org> mailing list. Diffs must be sent inline (that is, the body of the email must itself be your diff). It is also preferable if you add some information about the diff in the email, so you will want put one or two blank lines at the very top, and add that information.
 
