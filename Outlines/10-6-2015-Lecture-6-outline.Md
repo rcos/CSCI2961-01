@@ -5,8 +5,10 @@
    - Testing of Systems
     - unit tests, integration tests, system tests, acceptance tests, regression testing
         - Testing of Code
-        - Black Box, Gray Box, White Box
-        - Code Coverage
+          - Black Box, Gray Box, White Box
+          - Code Coverage
+          - Edge Cases
+          - Mock Tests with Stubs
     - Language Support
         -ctest, piunit, junit
 
