@@ -7,7 +7,15 @@
     - Testing of Code
         - Black Box, Gray Box, White Box
         - Code Coverage
+    - Language Support
+        -ctest, piunit, junit
+
 2 Continuous Integration
 
     - Integration types
         - Phased Integration
+        - Incremental Integration
+        - Top-down Integration
+        - Bottom-up Integration
+        - Sandwich Integration
+        - 
