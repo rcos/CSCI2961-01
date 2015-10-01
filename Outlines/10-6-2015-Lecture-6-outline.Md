@@ -18,4 +18,6 @@
         - Top-down Integration
         - Bottom-up Integration
         - Sandwich Integration
-        - 
+        - Daily Builds
+        - Software Support
+            - travis ci, ...
