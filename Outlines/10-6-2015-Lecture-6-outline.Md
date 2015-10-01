@@ -10,7 +10,7 @@
           - Edge Cases
           - Mock Tests with Stubs
     - Language Support
-        -ctest, piunit, junit
+        -ctest, pyunit, junit
 
 2 Continuous Integration
 
