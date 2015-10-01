@@ -21,5 +21,5 @@
      - Bottom-up Integration
      - Sandwich Integration
      - Daily Builds
-     - Software Support
-       - travis ci, ...
+   - Software Support
+     - travis ci, ...
