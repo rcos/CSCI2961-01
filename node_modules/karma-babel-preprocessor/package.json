@@ -1,0 +1,59 @@
+{
+  "name": "karma-babel-preprocessor",
+  "version": "5.2.2",
+  "description": "Preprocessor to compile ES6 on the fly with babel.",
+  "homepage": "https://github.com/babel/karma-babel-preprocessor",
+  "bugs": {
+    "url": "https://github.com/babel/karma-babel-preprocessor/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babel/karma-babel-preprocessor.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "karma-plugin",
+    "karma-preprocessor",
+    "babel",
+    "6to5",
+    "es6"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Shuhei Kagawa",
+    "email": "shuhei.kagawa@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^5.0.0"
+  },
+  "gitHead": "750604eab3b68a770ea164cc4597c77a520ddf23",
+  "_id": "karma-babel-preprocessor@5.2.2",
+  "_shasum": "5c1a9936b2152e94ec6b4077e8a858a8dd086b64",
+  "_from": "karma-babel-preprocessor@>=5.2.1 <6.0.0",
+  "_npmVersion": "2.11.3",
+  "_nodeVersion": "0.12.7",
+  "_npmUser": {
+    "name": "shuhei",
+    "email": "shuhei.kagawa@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "sebmck",
+      "email": "sebmck@gmail.com"
+    },
+    {
+      "name": "shuhei",
+      "email": "shuhei.kagawa@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "5c1a9936b2152e94ec6b4077e8a858a8dd086b64",
+    "tarball": "http://registry.npmjs.org/karma-babel-preprocessor/-/karma-babel-preprocessor-5.2.2.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/karma-babel-preprocessor/-/karma-babel-preprocessor-5.2.2.tgz",
+  "readme": "ERROR: No README data found!"
+}
