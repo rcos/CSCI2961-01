@@ -8,10 +8,11 @@ angular.module('itosApp', [
   'ui.bootstrap'
 ])
   .config(function ($routeProvider, $locationProvider) {
+    var site_prefix = '/CSCI2961-01';
     $routeProvider
       .otherwise({
-        redirectTo: '/?content=about'
+        redirectTo: site_prefix+'/?content=about'
       });
 
-    $locationProvider.html5Mode(false);
+    $locationProvider.html5Mode(true);
   });
