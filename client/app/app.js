@@ -13,5 +13,5 @@ angular.module('itosApp', [
         redirectTo: '/?content=about'
       });
 
-    $locationProvider.html5Mode(true);
+    $locationProvider.html5Mode(false);
   });
