@@ -1,5 +1,11 @@
 ## Week 6 Lab 10/9/2015 Friday - Continuous Integration
 
+- Please present a pitch slide for your proposed project - include the technology you are planning to use, users of the project, license, langauge of implementation, hardware used (mobile (ios, android), web application, computational, chrome extension) , project partners
+
+- Please look at the page https://github.com/mskmoorthy/collinear for an example for unit tests. This just for your practice - no submission is needed.  This page https://github.com/mskmoorthy/CITest  contains an example with Continuous Integration (using Travis CI) and testing - Again no submission needed - Just for practice
+
+- The following project is suggested by Aaron Gunderson '17 and Severin Ibarluzea '17 This is the project you are going to do in this lab
+
 For this lab we will be exploring continuous integration in the context of an open source project. Continuous integration is a popular development practice where developers integrate code changes frequently. These changes are verified using automated tests run against the code before merging and against the main branch on any changes. An important part of making this work is having automation and effective tests in place to verify these changes don't break any existing functionality. 
 
 
