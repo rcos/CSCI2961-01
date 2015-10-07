@@ -1,0 +1,42 @@
+<header class="hero-unit banner">
+  <div class="container">
+    <h1>CSCI 2961-01</h1>
+    <h3 class="lead">Intro to Open Source - Fall 2015</h3>
+    <div class="text-center">
+      <ul class="nav center-pills nav-pills-inverse border-pills-inverse" ng-repeat="item in things">
+        <li role="presentation">
+          <a href="{{item.link}}">
+          <div class="img-title">{{item.name}}</div>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</header>
+
+<div class="course-content banner">
+  <div class="container">
+    <p class="lead">Course Content:</p>
+    <div class="nav-center">
+      <ul class="nav nav-tabs">
+        <li role="presentation" ng-repeat="item in resources" ng-class="{active: (active==item.link)}">
+          <a href="?content={{item.link}}">{{item.name}}</a>
+        </li>
+      </ul>
+      <div class="text-left" ng-repeat="item in classContentText">
+        <div ng-bind-html="item"></div>
+        <hr>
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer class="footer">
+  <div class="container">
+    <span class="site-footer-owner"><a href="https://github.com/rcos/CSCI2961-01">Csci2961-01</a> is maintained by <a href="https://github.com/rcos">rcos</a>.</span>
+  </div>
+</footer>
