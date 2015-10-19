@@ -5,7 +5,9 @@ angular.module('itosApp', [
   'ngResource',
   'ngSanitize',
   'ngRoute',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'base64',
+  'pdf'
 ])
   .config(function ($routeProvider, $locationProvider) {
     $routeProvider

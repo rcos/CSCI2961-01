@@ -6,7 +6,13 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <base href="/CSCI2961-01/">
+    <!-- <base href="/"> -->
+
+    <!-- build:base /CSCI2961-01/ -->
+    <base href="/">
+    <!-- endbuild -->
+
+
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
@@ -44,6 +50,8 @@
     <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="https://raw.github.com/mozilla/pdf.js/gh-pages/build/pdf.js"></script>
+
     <!-- build:js({client,node_modules}) app/vendor.js -->
       <!-- bower:js -->
       <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -54,6 +62,10 @@
       <script src="bower_components/angular-route/angular-route.js"></script>
       <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
       <script src="bower_components/lodash/dist/lodash.compat.js"></script>
+      <script src="bower_components/angular-base64/angular-base64.js"></script>
+      <script src="bower_components/pdfjs-dist/build/pdf.js"></script>
+      <script src="bower_components/pdfjs-dist/build/pdf.worker.js"></script>
+      <script src="bower_components/angular-pdf/dist/angular-pdf.js"></script>
       <!-- endbower -->
     <!-- endbuild -->
 
@@ -62,6 +74,8 @@
 
         <script src="app/app.js"></script>
           <!-- injector:js -->
+          <script src="app/details/details.controller.js"></script>
+          <script src="app/details/details.js"></script>
           <script src="app/main/main.controller.js"></script>
           <script src="app/main/main.js"></script>
           <script src="components/modal/modal.service.js"></script>

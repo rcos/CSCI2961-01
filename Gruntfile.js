@@ -15,11 +15,14 @@ module.exports = function (grunt) {
     ngtemplates: 'grunt-angular-templates',
     cdnify: 'grunt-google-cdn',
     protractor: 'grunt-protractor-runner',
-    buildcontrol: 'grunt-build-control'
+    buildcontrol: 'grunt-build-control',
+    configureRewriteRules: "grunt-connect-rewrite"
   });
+  var urlRewrite = require('grunt-connect-rewrite');
 
   // Time how long tasks take. Can help when optimizing build times
   require('time-grunt')(grunt);
+  var rewriteRulesSnippet = require('grunt-connect-rewrite/lib/utils').rewriteRequest;
 
   // Define the configuration for all the tasks
   grunt.initConfig({
@@ -99,13 +102,19 @@ module.exports = function (grunt) {
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost',
         livereload: 35729
+
       },
+      rules: [
+            // Internal rewrite
+            // {from: '^/CSCI2961-01/(.*)$', to: '/$1'},
+      ],
       livereload: {
         options: {
-          open: true,
-          base: '<%= yeoman.dist %>',
-          middleware: function (connect) {
+          open: 'http://localhost:9000',
+          middleware: function (connect, options) {
             return [
+              rewriteRulesSnippet,
+              modRewrite(['^[^\\.]*$ /index.html [L]']),
               connect.static('.tmp'),
               connect().use(
                 '/bower_components',
@@ -118,7 +127,7 @@ module.exports = function (grunt) {
       },
       dist: {
         options: {
-          open: true,
+          open: 'http://localhost:9000',
           base: '<%= yeoman.dist %>'
         }
       }
@@ -239,6 +248,11 @@ module.exports = function (grunt) {
           js: [
             [/(assets\/images\/.*?\.(?:gif|jpeg|jpg|png|webp|svg))/gm, 'Update the JS to reference our revved images']
           ]
+        },
+        blockReplacements: {
+            base: function (block) {
+                return '<base href="/CSCI2961-01/">';
+            }
         }
       }
     },
@@ -403,7 +417,7 @@ module.exports = function (grunt) {
 
     // Compiles ES6 to JavaScript using Babel
     babel: {
-      options: { 
+      options: {
         sourceMap: true
       },
       server: {
@@ -503,7 +517,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
     if (target === 'dist') {
-      return grunt.task.run(['build', 'env:all', 'env:prod', 'connect:dist:keepalive']);
+      return grunt.task.run(['build', 'env:all', 'env:prod', 'configureRewriteRules','connect:dist:keepalive']);
 
     }
     if (target === 'debug') {
@@ -527,6 +541,7 @@ module.exports = function (grunt) {
       'injector',
       'wiredep',
       'autoprefixer',
+      'configureRewriteRules',
       'connect:livereload',
       'watch'
     ]);
