@@ -19,48 +19,49 @@
 <div class="course-content banner">
   <div class="container">
     <div ng-show="mode == 'nav'">
-      <p class="lead"><a href="{{link}}">
-  {{page}}</a>:</p>
-
       <div class="nav-center">
         <ul class="nav nav-tabs">
           <li role="presentation" ng-repeat="item in resources" ng-class="{active: (active==item.link)}">
             <a ng-href="?content={{item.link}}">{{item.name}}</a>
           </li>
-      </ul>
-        <div ng-show="active == 'about'">
-          <div class="text-left" ng-repeat="item in classContentText">
-              <div ng-bind-html="item"></div>
-              <hr>
+        </ul>
+
+        <h4 class="lead text-left"><a href="{{link}}"> {{page}}</a>:</h4>
+
+        <div class="imported-md">
+          <div ng-show="(active == 'about' || active == 'photos')">
+            <div class="text-left" ng-repeat="item in classContentText">
+                <div ng-bind-html="item"></div>
+                <hr>
+            </div>
+          </div>
+          <div ng-show="(active == 'howto' || active == 'labs' || active == 'outlines')" class="text-left">
+            <table class="table table-hover">
+                <tr ng-repeat="item in classContentText" ng-click="goToDetails(item);">
+                  <td  ng-class="{'borderless':$first}">{{item.name}}</td>
+                </tr>
+            </table>
+          </div>
+          <div ng-show="active == 'lectures'" class="text-left">
+            <table class="table table-hover">
+                <tr ng-repeat="item in classContentText" ng-click="goToDetails(item);">
+                  <td  ng-class="{'borderless':$first}">{{item.name}}</td>
+                </tr>
+            </table>
           </div>
         </div>
-        <div ng-show="(active == 'howto' || active == 'labs' || active == 'outlines')" class="text-left">
-          <table class="table table-hover">
-              <tr ng-repeat="item in classContentText" ng-click="goToDetails(item);">
-                <td  ng-class="{'borderless':$first}">{{item.name}}</td>
-              </tr>
-          </table>
-        </div>
-        <div ng-show="active == 'lectures'" class="text-left">
-          <table class="table table-hover">
-              <tr ng-repeat="item in classContentText" ng-click="goToDetails(item);">
-                <td  ng-class="{'borderless':$first}">{{item.name}}</td>
-              </tr>
-          </table>
-        </div>
-
       </div>
     </div>
     <div ng-show="mode == 'details'">
-      <p class="lead"><i class="fa fa-arrow-circle-o-left" ng-click=goToNav()></i><a href="{{link}}">
-  {{page}}</a>:</p>
-      <div class="text-left" ng-repeat="item in classContentText">
-        <div ng-show="type == 'html'">
-          <div ng-bind-html="item"></div>
-        </div>
-        <div ng-show="type == 'pdf'">
-          <object ng-show="item" data="{{item}}" type="application/pdf" style="width: 100%; height: {{height}}px;"></object>
-
+      <h4 class="lead"><i class="fa fa-arrow-circle-o-left" ng-click=goToNav()></i><a href="{{link}}">  {{page}}</a>:</h4>
+      <div class="imported-md">
+        <div class="text-left" ng-repeat="item in classContentText">
+          <div ng-show="type == 'html'">
+            <div ng-bind-html="item"></div>
+          </div>
+          <div ng-show="type == 'pdf'">
+            <object ng-show="item" data="{{item}}" type="application/pdf" style="width: 100%; height: {{height}}px;"></object>
+          </div>
         </div>
       </div>
     </div>

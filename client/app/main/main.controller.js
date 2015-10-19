@@ -5,6 +5,8 @@ angular.module('itosApp')
     $scope.active = angular.lowercase($location.search().content || 'about');
     $scope.page = ($location.search().page || 'Course Content');
     $scope.mode = angular.lowercase($location.search().mode || 'nav');
+    $scope.sha = angular.lowercase($location.search().sha || '0');
+
     $scope.type = 'html';
     $scope.link = 'https://github.com/rcos/CSCI2961-01/tree/master/';
 
@@ -22,6 +24,10 @@ angular.module('itosApp')
         name: 'About'
       },
       {
+        link:'photos',
+        name: 'Photos'
+      },
+      {
         link:'howto',
         name: 'Howto'
       },
@@ -34,8 +40,6 @@ angular.module('itosApp')
         name: 'Labs'
       },
       {
-
-
         link:'outlines',
         name: 'Outlines'
       }
@@ -63,6 +67,14 @@ angular.module('itosApp')
           });
 
 
+        });
+      }
+      else if ($scope.active === 'photos'){
+        $scope.link = 'https://github.com/rcos/CSCI2961-01/blob/master/Photos.Md';
+        $scope.page = 'Course Content - Pictures';
+
+        $http.get('https://api.github.com/repos/rcos/CSCI2961-01/contents/Photos.Md',config ).then(function(response) {
+          $scope.classContentText.push($sce.trustAsHtml(response.data));
         });
       }
       else if ($scope.active === 'howto'){
@@ -94,7 +106,7 @@ angular.module('itosApp')
 
         $http.get('https://api.github.com/repos/rcos/CSCI2961-01/contents/Lectures', config ).then(function(response) {
           for( var item of response.data){
-            console.log(item);
+            // console.log(item);
             if (angular.lowercase(item.name).endsWith('.pdf') || angular.lowercase(item.name).endsWith('.md') || angular.lowercase(item.name).endsWith('.txt') || item.name.endsWith('.html')){
               $scope.classContentText.push(item);
             }
@@ -126,24 +138,39 @@ angular.module('itosApp')
           };
 
           $http.get('https://api.github.com/repos/rcos/CSCI2961-01/contents/'+$scope.page , config).then(function(response) {
-            console.log(response.data);
             $scope.type = 'pdf';
             var file = new Blob([(response.data)], {type: 'application/pdf'});
             var fileURL = URL.createObjectURL(file);
-            console.log(fileURL);
+            // console.log(fileURL);
             $scope.classContentText.push($sce.trustAsResourceUrl(fileURL));
+          }, function errorCallback(response) {
+            // console.log(response);
+
+            if (response.status === 403){
+              // console.log('response.status == 403');
+
+              $http.get('https://api.github.com/repos/rcos/CSCI2961-01/git/blobs/'+$scope.sha , config).then(function(response) {
+                $scope.type = 'pdf';
+                var file = new Blob([(response.data)], {type: 'application/pdf'});
+                var fileURL = URL.createObjectURL(file);
+                // console.log(fileURL);
+                $scope.classContentText.push($sce.trustAsResourceUrl(fileURL));
+              });
+            }
+            // called asynchronously if an error occurs
+            // or server returns response with an error status.
           });
         }
         else if (angular.lowercase($scope.page).endsWith('.md')){
           $http.get('https://api.github.com/repos/rcos/CSCI2961-01/contents/'+$scope.page , config).then(function(response) {
-            console.log(response.data);
+            // console.log(response.data);
             $scope.type = 'html';
             $scope.classContentText.push($sce.trustAsHtml(response.data));
           });
         }
         else{
           $http.get('https://api.github.com/repos/rcos/CSCI2961-01/contents/'+$scope.page , config).then(function(response) {
-            console.log(response.data);
+            // console.log(response.data);
             $scope.type = 'html';
             $scope.classContentText.push($sce.trustAsHtml(response.data));
           });
@@ -153,12 +180,12 @@ angular.module('itosApp')
     }
 
     $scope.goToDetails = function(item) {
-        console.log(item);
-        console.log('/?mode=details&content='+$scope.active+'&page='+item.path);
-        $location.search('mode','details').search('page',item.path);
+        // console.log(item);
+        // console.log('/?mode=details&content='+$scope.active+'&page='+item.path+'&sha='+item.sha);
+        $location.search('mode','details').search('page',item.path).search('sha',item.sha);
     };
     $scope.goToNav = function() {
-        console.log('/?content='+$scope.active);
+        // console.log('/?content='+$scope.active);
         $location.url('/?content='+$scope.active);
     };
 
