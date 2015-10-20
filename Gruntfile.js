@@ -16,7 +16,8 @@ module.exports = function (grunt) {
     cdnify: 'grunt-google-cdn',
     protractor: 'grunt-protractor-runner',
     buildcontrol: 'grunt-build-control',
-    configureRewriteRules: "grunt-connect-rewrite"
+    configureRewriteRules: 'grunt-connect-rewrite',
+    imagemin: 'grunt-contrib-imagemin'
   });
   var urlRewrite = require('grunt-connect-rewrite');
 
