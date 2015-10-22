@@ -40,6 +40,6 @@
       ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
       ```
         > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0) 
-Upload your five videos to youtube and provide links
+Upload your five videos to youtube and provide links . Is there a leader for each of the five projects? WHo will call you the leader?
 
 Make sure to include screenshots and comments in your blog post.
