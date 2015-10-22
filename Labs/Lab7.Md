@@ -1,40 +1,45 @@
 # Lab 7 Community Development - (un)Leadership Oct 23, 2015
 
-### Dr. Luis Ibanez talked about community and how people co-operates to contribute to a project
+#### Dr. Luis Ibanez talked about community and how people co-operates to contribute to a project
+#### In this lab, we will explore this further using automatic tools, software and manually.
+> This will be done by groups (each table is a group, if there are less than 3 student, or more than 5, find a new table)  
+> All the results should be documented in a labreport7.md and pushed to in your Github account.
 
-### In this lab, we will explore this further using automatic tools, software and manually. 
-This will be done by groups (all students sitting in a table form  All the results should be docuemnted in a labreport7.md
-and show it in your git hub account.
+1. Project selection -
+  - Take five projects from http://rcos.io and clone them locally.
+>(table 1 takes the first five, table 2 takes the next 5 and so on - If the last few tables run out of projects, then please take it from the [archive list](http://rcos.rpi.edu/projects/archive_list/) )
 
-1) Take any five projects from http://rcos.io (table 1 takes the first five, table 2 takes the next 5 and so on - If the last few tables run out 
-of projects, then please take it from http://rcos.rpi.edu/projects/archive_list/  - Write down the number of contributor, number of lines of code
-and the first and last commit of the project (by hand)
+  - Write down the number of contributor, number of lines of code and the first and last commit of the project (by hand)
+  > To get lines of a project, try something like `git ls-files -z | xargs -0 wc -l` or [gitstats](http://gitstats.sourceforge.net) (Gives you a greater breakdown). Each requires you clone the project first
 
-2) Clone the project `https://github.com/hoxu/gitstats` in your local repository. Clone each of the five project (from 
-github to your local directory). sitstats require gnuplot. So do a `sudo apt-get ibstall gnuplot-x11' . Then
-you can run for example the command from command line  `./gitstats ~/Test/Observatory/ ~/OutputLab7/index.html` (I am doing this for Observatory Project).
-You can see the output in a browser by typing `file:///home/moorthy/OutputLab7/index.html/index.html` and 
-`file:///home/moorthy/OutputLab7/index.html/index.html
-Repeat this for every 
-one of the five projects. Compare your results from 1) to these results and write your comments. 
-(If you are curious, please read and understand the python code  
-`https://github.com/hoxu/gitstats/blob/master/gitstats` - Better yet if you have a better idea for some suggest improvements)
+2. Gitstats -
+  - Install
+    - Clone the project `https://github.com/hoxu/gitstats` locally, and run `make install`
+    - gitstats require gnuplot. To install, run `sudo apt-get install gnuplot-x11'.
+  - Running
+    - From the command from command line, use  `gitstats <path to project1 git repo> <output path>`
+    - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar
+    > You may also be able to open it from the command line using `xdg-open <output path>/index.html` or `sensible-browser <output path>/index.html`
 
-3) Streaming Visualization - Please read the webpage http://gource.io/ . Please download gource by
-`sudo apt-get install gource` . Now go to each of the five cloned repository directories and execute the coomand
-`gource` - You will get a streaming video of the activity in that project. Now you can create a youtube video of these projects.
-To do this get `sudo apt-get install ffmpeg` . The excute the following two commands (from each of the cloned repositories directories)
+  - Repeat this for each of the five projects.
+  - Compare to your results from #1 to these results and comment on your findings.
+    > (If you are curious, please read and understand the python code  
+`https://github.com/hoxu/gitstats/blob/master/gitstats` - Even better if you suggest some improvements)
+
+3) Streaming Visualization -
+  - Read the webpage http://gource.io/.
+  - Download gource using `sudo apt-get install gource` .
+  - Go to each of the five cloned repository directories and execute the coomand
+`gource`
+    - You will get a streaming video of the activity in that project.
+    - Now, create a youtube video of these projects.
+      - Install ffmpeg using `sudo apt-get install ffmpeg`.
+      - Excute the following two commands from each of the cloned repositories:
+      ```
+      gource -1280x720 -o gource.ppm
+      ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
+      ```
+        > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=si-kxnwKvjU)
 
 
-`gource -1280x720 -o gource.ppm and`
-`ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4`
-
-Here is an example youtube video of Observatory project (old) https://www.youtube.com/watch?v=si-kxnwKvjU
-and 
-
-
-
-
-
-
-- https://www.youtube.com/watch?v=SKArMLw1QY0&feature=youtu.be
+Make sure to include screenshots and comments in your blog post.
