@@ -15,7 +15,7 @@
 2. Gitstats -
   - Install
     - Clone the project `https://github.com/hoxu/gitstats` locally, and run `make install`
-    - gitstats require gnuplot. To install, run `sudo apt-get install gnuplot-x11'.
+    - gitstats require gnuplot. To install, run `sudo apt-get install gnuplot-x11`.
   - Running
     - From the command from command line, use  `gitstats <path to project1 git repo> <output path>`
     - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar
