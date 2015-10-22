@@ -113,7 +113,6 @@ module.exports = function (grunt) {
           middleware: function (connect, options) {
             return [
               rewriteRulesSnippet,
-              modRewrite(['^[^\\.]*$ /index.html [L]']),
               connect.static('.tmp'),
               connect().use(
                 '/bower_components',
