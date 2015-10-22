@@ -27,8 +27,6 @@ module.exports = function (grunt) {
 
   // Define the configuration for all the tasks
   grunt.initConfig({
-
-
     // Project settings
     pkg: grunt.file.readJSON('package.json'),
     yeoman: {
@@ -239,6 +237,8 @@ module.exports = function (grunt) {
       html: ['<%= yeoman.dist %>/{,*/}*.html'],
       css: ['<%= yeoman.dist %>/{,*/}*.css'],
       js: ['<%= yeoman.dist %>/{,*/}*.js'],
+      base: ['<%= yeoman.dist %>/{,*/}*.html'],
+
       options: {
         assetsDirs: [
           '<%= yeoman.dist %>',
