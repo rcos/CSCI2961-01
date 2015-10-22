@@ -19,14 +19,14 @@
   - Running
     - From the command from command line, use  `gitstats <path to project1 git repo> <output path>`
     - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar
-    > You may also be able to open it from the command line using `xdg-open <output path>/index.html` or `sensible-browser <output path>/index.html`
+     You may also be able to open it from the command line using `xdg-open <output path>/index.html` or `sensible-browser <output path>/index.html`
 
   - Repeat this for each of the five projects.
   - Compare to your results from #1 to these results and comment on your findings.
     > (If you are curious, please read and understand the python code  
 `https://github.com/hoxu/gitstats/blob/master/gitstats` - Even better if you suggest some improvements)
 
-3) Streaming Visualization -
+3 Streaming Visualization -
   - Read the webpage http://gource.io/.
   - Download gource using `sudo apt-get install gource` .
   - Go to each of the five cloned repository directories and execute the coomand
