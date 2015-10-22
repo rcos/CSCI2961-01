@@ -9,7 +9,7 @@
   - Take five projects from http://rcos.io and clone them locally.
 >(table 1 takes the first five, table 2 takes the next 5 and so on - If the last few tables run out of projects, then please take it from the [archive list](http://rcos.rpi.edu/projects/archive_list/) )
 
-  - Write down the number of contributor, number of lines of code and the first and last commit of the project (by hand)
+  - Write down the number of contributors, number of lines of code and the first and last commit of the project (by hand)
   > To get lines of a project, try something like `git ls-files -z | xargs -0 wc -l` or [gitstats](http://gitstats.sourceforge.net) (Gives you a greater breakdown). Each requires you clone the project first
 
 2. Gitstats -
