@@ -1,0 +1,6 @@
+.tmp
+bower_components
+client
+dist
+node_modules
+package.json
