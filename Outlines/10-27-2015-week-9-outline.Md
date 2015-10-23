@@ -5,15 +5,15 @@
  - Domain specific langauges -- orthogonal to ho overlaying a genric scripting language like Python or C++ Computing engines.
  - Domain-specific langauges for scientific computing R, Julia 
 
- Common tools used - matlab (simulink) - octave
- - finite lement methods
+- Common tools used - matlab (simulink) - octave
+ - finite element methods
  - large scale computing - paprallel computing, cuda, mpi 
  - languages used - fortran, c, c++
  - visualization (open source visualization toolkit vtk)
  - mathematica, maple - to do symbolic manipulation. LINPACK for during numerical computation
  - Linear Programming Package like cplex
  - Mathematics, Physics, Engineering
- - spice 9network simulator) - vlsi design
+ - spice (network simulator) - vlsi design
  
 - Python
   - pypy, mplotlib, cpython, numpy
