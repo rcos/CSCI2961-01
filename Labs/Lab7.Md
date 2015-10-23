@@ -34,7 +34,7 @@
 `gource`
     - You will get a streaming video of the activity in that project.
     - Now, create a youtube video of these projects.
-      - Install ffmpeg using `sudo apt-get install ffmpeg` or install ffmpeg using `sudo apt-get install avcnv`.
+      - Install ffmpeg using `sudo apt-get install ffmpeg` or install avconv using `sudo apt-get install avconv`.
       - Excute the following two commands from each of the cloned repositories:
       ```
       gource -1280x720 -o gource.ppm --time-scale 3
@@ -43,7 +43,7 @@
       or
       ```
       gource -1280x720 -o gource.ppm --time-scale 3
-      avcnv -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
+      avconv -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
       ```
       or for a more fun gource:
       ```
