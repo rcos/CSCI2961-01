@@ -1,5 +1,11 @@
 - Scientific Computation
- - Common tools used - matlab (simulink) (not open source) - octave (equivalent to matlab but difficult to use)
+ - Normally heavy lifting (computations)  is done by fortran, c, c++ 
+ - Applications range from weather forecasting, medical application, image processing, weapon simulation, chip fabrication
+ - Normally they will enable higher-level language wrappers like Python to enable rapid deployment.
+ - Domain specific langauges -- orthogonal to ho overlaying a genric scripting language like Python or C++ Computing engines.
+ - Domain-specific langauges for scientific computing R, Julia 
+
+ Common tools used - matlab (simulink) - octave
  - finite lement methods
  - large scale computing - paprallel computing, cuda, mpi 
  - languages used - fortran, c, c++
@@ -10,7 +16,7 @@
  - spice 9network simulator) - vlsi design
  
 - Python
-  - pypy, mplotlib, cpython
+  - pypy, mplotlib, cpython, numpy
   - lots of python packages
   - python notebook
   - arrays in python
