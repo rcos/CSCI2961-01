@@ -34,12 +34,22 @@
 `gource`
     - You will get a streaming video of the activity in that project.
     - Now, create a youtube video of these projects.
-      - Install ffmpeg using `sudo apt-get install ffmpeg`.
+      - Install ffmpeg using `sudo apt-get install ffmpeg` or install ffmpeg using `sudo apt-get install avcnv`.
       - Excute the following two commands from each of the cloned repositories:
       ```
       gource -1280x720 -o gource.ppm --time-scale 3
       ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
+       ```
+      or
       ```
+      gource -1280x720 -o gource.ppm --time-scale 3
+      avcnv -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
+      ```
+      or for a more fun gource:
+      ```
+      gource -1280x720 -o gource.ppm --auto-skip-seconds 1 --max-files 0 --time-scale 3 --camera-mode track --file-idle-time 0 --bloom-multiplier 1.5  -e 0.5 --title "<Project Title>"
+      ```
+
         > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)  and [CSCI 2961-01 Intro to Open Source](https://youtu.be/-R3-t0oLcpk )
 
         >Upload your five videos to youtube and provide links. Is there a leader for each of the five projects? Who would you call the leader?
