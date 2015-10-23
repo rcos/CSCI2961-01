@@ -37,7 +37,7 @@
       - Install ffmpeg using `sudo apt-get install ffmpeg`.
       - Excute the following two commands from each of the cloned repositories:
       ```
-      gource -1280x720 -o gource.ppm
+      gource -1280x720 -o gource.ppm --time-scale 3
       ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
       ```
         > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)  and [CSCI 2961-01 Intro to Open Source](https://youtu.be/-R3-t0oLcpk )
