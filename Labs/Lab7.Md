@@ -10,23 +10,24 @@
 >(table 1 takes the first five, table 2 takes the next 5 and so on - If the last few tables run out of projects, then please take it from the [archive list](http://rcos.rpi.edu/projects/archive_list/) )
 
   - Write down the number of contributors, number of lines of code and the first and last commit of the project (by hand)
-  > To get lines of a project, try something like `git ls-files -z | xargs -0 wc -l` or [gitstats](http://gitstats.sourceforge.net) (Gives you a greater breakdown). Each requires you clone the project first
+  > To get the lines of a project, try something like `git ls-files -z | xargs -0 wc -l` This requires you clone the project first.
 
 2. Gitstats -
   - Install
     - Clone the project `https://github.com/hoxu/gitstats` locally, and run `make install`
-    - gitstats require gnuplot. To install, run `sudo apt-get install gnuplot-x11`.
+    - gitstats requires gnuplot. To install, run `sudo apt-get install gnuplot-x11`.
   - Running
     - From the command from command line, use  `gitstats <path to project1 git repo> <output path>`
     - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar
-     You may also be able to open it from the command line using `xdg-open <output path>/index.html` or `sensible-browser <output path>/index.html`
+    - You may also be able to open it from the command line using `xdg-open <output path>/index.html` or `sensible-browser <output path>/index.html`
 
   - Repeat this for each of the five projects.
   - Compare to your results from #1 to these results and comment on your findings.
-    > (If you are curious, please read and understand the python code  
-`https://github.com/hoxu/gitstats/blob/master/gitstats` - Even better if you suggest some improvements)
 
-3 Streaming Visualization -
+    > (If you are curious, please read and try to understand the python code  
+`https://github.com/hoxu/gitstats/blob/master/gitstats` - Its even better if you suggest some improvements)
+
+3. Streaming Visualization -
   - Read the webpage http://gource.io/.
   - Download gource using `sudo apt-get install gource` .
   - Go to each of the five cloned repository directories and execute the coomand
@@ -39,7 +40,8 @@
       gource -1280x720 -o gource.ppm
       ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
       ```
-        > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0) 
-Upload your five videos to youtube and provide links . Is there a leader for each of the five projects? Who will call you the leader?
+        > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)
+
+        >Upload your five videos to youtube and provide links. Is there a leader for each of the five projects? Who would you call the leader?
 
 Make sure to include screenshots and comments in your blog post.
