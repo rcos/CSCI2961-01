@@ -40,7 +40,7 @@
       gource -1280x720 -o gource.ppm
       ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b 3000k -s hd480 gource.mp4
       ```
-        > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)
+        > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory (old)](https://www.youtube.com/watch?v=SKArMLw1QY0) [CSCI 2961-01 Intro to Open Source](https://youtu.be/-R3-t0oLcpk )
 
         >Upload your five videos to youtube and provide links. Is there a leader for each of the five projects? Who would you call the leader?
 
