@@ -12,6 +12,7 @@ The open source community has given us a ton of great software and tools, but ca
   - Interact with the community, and improve communication skills
   - Pick up new tools, even if they are not your preferred ones
   - Receive and give code reviews and critiques
+  - Abide by style guides and linting
 
 - Gain experience in a professional work-like development environment, where you don't get to make all the decisions or establish the vision.
 
