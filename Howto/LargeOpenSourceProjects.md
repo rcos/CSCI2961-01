@@ -44,10 +44,10 @@ And you can definitely put it on your resume!
   - [Learn X in Y minutes](https://github.com/adambard/learnxinyminutes-docs) [English]
     - Code documentation written as code
       - Online tutorials
+  - [Reddit](https://github.com/reddit/reddit/) [Python and Javascipt]
+    - Code that powers reddit
   - [Lightbeam](https://github.com/mozilla/lightbeam) [Javascript]
     - Firefox add-on and web app for visualizing HTTP requests between websites in real time
-  - [bpython](https://github.com/bpython/bpython) [Python]
-    - Lightweight fancy Python interpreter
   - [OpenMRS](https://github.com/OpenMRS/openmrs-core) [Java]
     - Patient-based medical record system
 
