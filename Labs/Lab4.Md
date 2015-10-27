@@ -1,5 +1,5 @@
 # Lab 4: Documentation (9/25/2015)
-> #### Created by Brian Callhan (Local BSD Guru)
+> #### Created by Brian Callahan (Local BSD Guru)
 https://news.ycombinator.com/item?id=9240533 </br>
 and </br>
 https://twitter.com/__briancallahan/status/579115053711958016
