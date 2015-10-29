@@ -1,0 +1,25 @@
+## Lab 8 - Scientific Computation 
+
+- Graphs and Networks are ubiquitous in Scientific Computations. Networkx is an open source python package located here https://networkx.github.io/
+
+- A nice tutorial may be found in https://networkx.github.io/documentation/latest/_downloads/networkx_tutorial.pdf
+
+- Your task for this class is to use networkx to do graph theoretic/network computations.
+
+Please do the following problems.
+
+- Download and Install networkx and download install matplotlib http://matplotlib.org/ 
+
+- Practice all the examples in https://networkx.github.io/documentation/latest/_downloads/networkx_tutorial.pdf
+
+- Stanford Graphbase is a book written by Prof. Donald Knuth and contains many interesting examples on graph algorithms and implementations of programs (written in literate programming style). Here is an abstract of that book http://tex.loria.fr/sgb/abstract.pdf - Dr. Goldschmidt Master's thesis http://www.cs.rpi.edu/research/groups/pb/jgb/Masters.pdf is Java implementation.  These problems are also imlemented in networkx.
+
+- Implement word ladder game https://en.wikipedia.org/wiki/Word_ladder and its variations. (The algorithmic idea behind this
+problem is the shortest path algorithm implemented in networkx) This link provides https://github.com/networkx/networkx/blob/master/examples/graph/words.py a word ladder implementation - Another implementation (simpler but slower) is here http://www.csie.ntu.edu.tw/~azarc/sna/networkx/examples/graph/words.py 
+Input data (for five letter word) is here https://www.csie.ntu.edu.tw/~azarc/sna/networkx/examples/graph/ under words.da.txt.gz or http://www.cs.rpi.edu/research/groups/pb/jgb/java/words.dat 
+Four letter words are here http://www.cs.rpi.edu/research/groups/pb/jgb/java/words4.dat (Do the problem for both 5 letter and 4 letter words)
+Test them with word ladder for chaos to  order , nodes to graph, moron to smart and pound to marks.  For four letter words try 
+cold to warm , love to hate ( http://wordplay.blogs.nytimes.com/2013/06/19/climb-the-ladder/ )
+
+-  Implement a Variation where we consider two words (nodes) are adjacent if the number of letters that differ (not necessarily in same position) by 1. (You need to the change the edit_distance function). Repeat with the same data.
+(use multiset from collection)
