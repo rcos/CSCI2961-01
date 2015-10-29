@@ -17,7 +17,7 @@ Please do the following problems.
 - Implement word ladder game https://en.wikipedia.org/wiki/Word_ladder and its variations. (The algorithmic idea behind this
 problem is the shortest path algorithm implemented in networkx) This link provides https://github.com/networkx/networkx/blob/master/examples/graph/words.py a word ladder implementation - Another implementation (simpler but slower) is here http://www.csie.ntu.edu.tw/~azarc/sna/networkx/examples/graph/words.py 
 Input data (for five letter word) is here https://www.csie.ntu.edu.tw/~azarc/sna/networkx/examples/graph/ under words.da.txt.gz or http://www.cs.rpi.edu/research/groups/pb/jgb/java/words.dat 
-Four letter words are here http://www.cs.rpi.edu/research/groups/pb/jgb/java/words4.dat (Do the problem for both 5 letter and 4 letter words)
+Four letter words are here http://www.cs.rpi.edu/research/groups/pb/jgb/java/words4.dat (Do the problem  "words of length 4 and words of lengt5 --  {W_n | len(w) =n} and W_4, W_5 )
 Test them with word ladder for chaos to  order , nodes to graph, moron to smart and pound to marks.  For four letter words try 
 cold to warm , love to hate ( http://wordplay.blogs.nytimes.com/2013/06/19/climb-the-ladder/ )
 
