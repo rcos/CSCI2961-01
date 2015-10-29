@@ -12,7 +12,7 @@ Please do the following problems.
 
 - Practice all the examples in https://networkx.github.io/documentation/latest/_downloads/networkx_tutorial.pdf
 
-- Stanford Graphbase is a book written by Prof. Donald Knuth and contains many interesting examples on graph algorithms and implementations of programs (written in literate programming style). Here is an abstract of that book http://tex.loria.fr/sgb/abstract.pdf - Dr. Goldschmidt Master's thesis http://www.cs.rpi.edu/research/groups/pb/jgb/Masters.pdf is Java implementation.  These problems are also imlemented in networkx.
+- Stanford Graphbase is a book written by Prof. Donald Knuth and contains many interesting examples on graph algorithms and implementations of programs (written in literate programming style). Here is an abstract of that book http://tex.loria.fr/sgb/abstract.pdf - Dr. Goldschmidt Master's thesis http://www.cs.rpi.edu/research/groups/pb/jgb/Masters.pdf is a Java implementation.  These problems are also imlemented in networkx.
 
 - Implement word ladder game https://en.wikipedia.org/wiki/Word_ladder and its variations. (The algorithmic idea behind this
 problem is the shortest path algorithm implemented in networkx) This link provides https://github.com/networkx/networkx/blob/master/examples/graph/words.py a word ladder implementation - Another implementation (simpler but slower) is here http://www.csie.ntu.edu.tw/~azarc/sna/networkx/examples/graph/words.py 
