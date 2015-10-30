@@ -38,4 +38,14 @@ cold to warm , love to hate]( http://wordplay.blogs.nytimes.com/2013/06/19/climb
 -  Implement a variation where we consider two words (nodes) are adjacent if the number of letters that differ (not necessarily in same position) by 1. (You need to the change the edit_distance function). Repeat with the same data.
 (use multiset from collection)
 
+An example:
+```
+Shortest path between chaos and order is
+chaos
+echos
+chore
+coder
+order
+```
+
 - Create/fork a github repository for your project and work on your first commit
