@@ -1,4 +1,4 @@
-## Lab 8 - Scientific Computation 
+## Lab 8 - Scientific Computation 10/30/2015
 
 - Graphs and Networks are ubiquitous in Scientific Computations. Networkx is an open source python package located here https://networkx.github.io/
 
@@ -23,3 +23,5 @@ cold to warm , love to hate ( http://wordplay.blogs.nytimes.com/2013/06/19/climb
 
 -  Implement a Variation where we consider two words (nodes) are adjacent if the number of letters that differ (not necessarily in same position) by 1. (You need to the change the edit_distance function). Repeat with the same data.
 (use multiset from collection)
+
+- Create a git hub page for your project and make a first commit
