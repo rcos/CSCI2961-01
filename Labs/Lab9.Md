@@ -21,7 +21,7 @@ For this lab, please do the following - Lab report should be in your github page
 2) Some background on Association rule mining  here https://en.wikipedia.org/wiki/Association_rule_learning
 
 3) Implement (as in the chapter 9 of the book) association rules for Titanic Data set (experiment with different parameters 
-in page 89 of the book for support and confidence
+in page 89 of the book for support and confidence )
 
 4) Try different visulaizations as done in chapter 9 of the text book.
 
