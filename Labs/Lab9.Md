@@ -7,7 +7,7 @@ science.  In this lab you will be doing the first project - namely Titanic Data.
 https://www.kaggle.com/c/titanic (Kaggle holds competition on machine learning/data science - A couple of years ago,
 one RPI (also worked in RCOS) student Diogo won the first place in the cause-effect pairs competition! http://rcos.rpi.edu/projects/protoml/
 and https://www.kaggle.com/c/cause-effect-pairs/forums/t/5702/code-of-top-ranking-participants/30618 - So you too
-can participate in the near feature and win)
+can participate in the near future and win)
 
 Now back to the titanic
 
