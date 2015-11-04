@@ -1,4 +1,4 @@
-## Lab 9 on Statistical Computing/Open Data/Data Science/Machine Learning
+## Lab 9 (11/6/2015) on Statistical Computing/Open Data/Data Science/Machine Learning
 
 Data Science, Statistical Modeling and Machine learning are important current topics in Computer Science. There has been a lot of open source software and open data available.
 
