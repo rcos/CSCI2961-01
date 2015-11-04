@@ -1,7 +1,6 @@
-## Lab 9 on Statistical COmputing/Open Data
+## Lab 9 on Statistical Computing/Open Data/Data Science/Machine Learning
 
-Data Science, Statistical Modeling and Machine learning are important current topics in Computer Science. There has been a lot
-of open source software available.
+Data Science, Statistical Modeling and Machine learning are important current topics in Computer Science. There has been a lot of open source software and open data available.
 
 http://www.analyticsvidhya.com/blog/2014/11/data-science-projects-learn/ gives recommendation of five projects to learn data
 science.  In this lab you will be doing the first project - namely Titanic Data. This is available in kaggle site
@@ -26,8 +25,8 @@ in page 89 of the book for support and confidence
 
 4) Try different visulaizations as done in chapter 9 of the text book.
 
-5) (optional) Read the kaggle R tutotial on Machine Learning https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic
-(you can login with facebook or google plus
+5) (optional) Read the kaggle R tutotial on Machine Learning https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic  (Random forest is also discussed in chapter 4 of the Zhao's book)
+(you can login with your facebook or google plus account or register)
 
 6)  A paragraph description of the status of your project - What did you do last week on your project? You have
 only 4 more weeks to finish your project.
