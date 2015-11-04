@@ -5,7 +5,7 @@ Data Science, Statistical Modeling and Machine learning are important current to
 http://www.analyticsvidhya.com/blog/2014/11/data-science-projects-learn/ gives recommendation of five projects to learn data
 science.  In this lab you will be doing the first project - namely Titanic Data. This is available in kaggle site
 https://www.kaggle.com/c/titanic (Kaggle holds competition on machine learning/data science - A couple of years ago,
-one rpi (also worked in RCOS) student Diogo won the first place in the cause-effect pairs competition! http://rcos.rpi.edu/projects/protoml/
+one RPI (also worked in RCOS) student Diogo won the first place in the cause-effect pairs competition! http://rcos.rpi.edu/projects/protoml/
 and https://www.kaggle.com/c/cause-effect-pairs/forums/t/5702/code-of-top-ranking-participants/30618 - So you too
 can participate in the near feature and win)
 
