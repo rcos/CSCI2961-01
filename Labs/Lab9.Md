@@ -17,6 +17,7 @@ available in https://vincentarelbundock.github.io/Rdatasets/csv/datasets/Titanic
 For this lab, please do the following - Lab report should be in your github page
 
 1) Read Chapter 9 of the book on Association Rule Mining  https://cran.r-project.org/doc/contrib/Zhao_R_and_data_mining.pdf 
+(You can also read these slides http://www.slideshare.net/rdatamining/association-rule-mining-with-r )
 
 2) Some background on Association rule mining  here https://en.wikipedia.org/wiki/Association_rule_learning
 
