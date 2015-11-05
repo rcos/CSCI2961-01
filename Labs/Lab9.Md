@@ -23,7 +23,7 @@ For this lab, please do the following - Lab report should be in your github page
 3) Implement (as in the chapter 9 of the book) association rules for Titanic Data set (experiment with different parameters 
 in page 89 of the book for support and confidence )
 
-4) Try different visulaizations as done in chapter 9 of the text book.
+4) Try different visulaizations as done in chapter 9 of the text book. (Things have changed during the last one year - R now supports igraph for displaying networks - In otherwords, if you are unable to see/display/execute tree plot of the rules, it is alright)
 
 5) (optional) Read the kaggle R tutotial on Machine Learning https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic  (Random forest is also discussed in chapter 4 of the Zhao's book)
 (you can login with your facebook or google plus account or register)
