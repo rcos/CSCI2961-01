@@ -15,6 +15,8 @@ For this lab, please do the following - Lab report should be in your github page
 
 2. Read about the [background on Association Rule mining](https://en.wikipedia.org/wiki/Association_rule_learning)
 
+    *hint In RStudio, go to Tools -> Install Packages, then type arules into the "Packages" box, hit ok and do the same thing with arulesViz*
+
 3. Implement association rules for Titanic Data set (experiment with different parameters. Look in chapter 9 of the book on page 89 for support and confidence )
 
 4. Try different visulaizations as done in chapter 9 of the text book. (Things have changed with R too - To load RGraphviz  go to a new Rscript window and type  `source("http://bioconductor.org/biocLite.R")`   Next, type in `biocLite("Rgraphviz")` After this you will be able to plot the graph of rules.)
