@@ -6,3 +6,7 @@ Lab 4 - 9/25/2015 Every one hard at work doing documentation patch  Problem Sugg
 ![Students hard at work on 9/25/2015](https://github.com/rcos/CSCI2961-01/blob/master/lab4-2.jpg)
 Lab 5- 10/2/2015 - Students are working on cmake lab - aided by our wonderful UTAS Seve, Kiana, Joe and Tom 
 ![Students hard at work on 9/25/2015](https://github.com/rcos/CSCI2961-01/blob/master/lab5-1.jpg)
+Lab 10 - 11/13//2015 - Arduino Project - in Sage 221
+![Arduino lab on 11/13/2015](https://github.com/rcos/CSCI2961-01/blob/master/lab10-1.jpg)
+![Arduino lab with Jorel and Robert n 11/13/2015](https://github.com/rcos/CSCI2961-01/blob/master/lab10-2.jpg)
+![Arduino lab with UTA helping](https://github.com/rcos/CSCI2961-01/blob/master/lab10-3.jpg)
