@@ -47,4 +47,4 @@
   - Repository https://github.com/chocolatemelt/fe-cli
   - Blog https://rcos.io/projects/chocolatemelt/fe-cli/blog
   - Prsentation https://docs.google.com/presentation/d/18zra4GX2paTUe0pp3SEnT_EYsi_YuFjE6rsQ6ZlGqFs/edit#slide=id.p
--
+
