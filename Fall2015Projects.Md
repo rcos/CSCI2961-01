@@ -42,7 +42,7 @@
   - Blog https://rcos.io/projects/njbbaer/shuttle_tracking_2/blog
   - Presentation https://docs.google.com/presentation/d/1BlfNVaJHlbK7_14qRGMgCGhG7XT2loRrbDh4wvJjYM8/edit#slide=id.gc6f8badac_0_0
   
-8) fire emblem -command line interface  - Kevin Zhang
+8) Fire Emblem -command line interface  - Kevin Zhang
   - Profile https://rcos.io/projects/chocolatemelt/fe-cli/profile
   - Repository https://github.com/chocolatemelt/fe-cli
   - Blog https://rcos.io/projects/chocolatemelt/fe-cli/blog
