@@ -28,6 +28,10 @@ angular.module('itosApp')
         name: 'Photos'
       },
       {
+        link:'fall2015projects',
+        name: 'Past Projects 2015'
+      },
+      {
         link:'howto',
         name: 'Howto'
       },
@@ -87,6 +91,21 @@ angular.module('itosApp')
 
           }
         });
+      }
+      else if ($scope.active === 'fall2015projects'){
+        $scope.page = 'Course Content - Fall 2015 Projects';
+        $scope.link = 'https://github.com/rcos/CSCI2961-01/tree/master/Fall2015Projects.md';
+        //
+        // $http.get('https://api.github.com/repos/rcos/CSCI2961-01/Fall2015Projects.md',config).then(function(response) {
+        //   console.log("response",response);
+        //     $scope.classContentText.push($sce.trustAsHtml(response.data));
+        // });
+
+      $http.get('https://api.github.com/repos/rcos/CSCI2961-01/contents/Fall2015Projects.md',config ).then(function(response) {
+        $scope.classContentText.push($sce.trustAsHtml(response.data));
+      });
+
+
       }
       else if ($scope.active === 'labs'){
         $scope.page = 'Course Content - Labs';
