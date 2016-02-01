@@ -3,7 +3,7 @@
 
 1. Read the four criteria for Free Software http://www.gnu.org/philosophy/free-sw.html
 
-2.  Why it is important to choose a LICENSE - write two to five sentences
+2.  Why it is important to choose a LICENSE http://choosealicense.com/ https://www.quora.com/What-are-the-most-important-criteria-to-select-an-open-source-license - write two to five sentences
 
 3.  Why one SHOULDN'T use a project that doesn't have a explicit license - write two to five sentences.
 
