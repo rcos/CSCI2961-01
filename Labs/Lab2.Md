@@ -1,4 +1,4 @@
-### This Lab (on 4/9/2015) is on Open Source Licensing.
+### This Lab (on 9/11/2015) is on Open Source Licensing.
 ### A good reading material is http://opensource.org/licenses
 
 1. Read the four criteria for Free Software http://www.gnu.org/philosophy/free-sw.html
